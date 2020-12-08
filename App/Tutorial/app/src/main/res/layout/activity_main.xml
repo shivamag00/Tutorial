@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/usernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="120dp"
+        android:text="Enter Username" />
+
+    <EditText
+        android:id="@+id/editUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameLabel"
+        android:layout_centerHorizontal="true"
+        android:hint="Type Here"
+        android:layout_marginBottom="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_below="@id/editUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="Enter Email" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_below="@id/emailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Type Here"/>
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_below="@id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="Enter Password" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_below="@id/passwordLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginHorizontal="16dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_below="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_below="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_below="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Logout" />
+
+
+    <Button
+        android:id="@+id/deleteUsersButton"
+        android:layout_below="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Delete All  Users" />
+
+
+</RelativeLayout>
