@@ -166,7 +166,7 @@ public final class QueryUtils {
             Log.e("Problem", "Problem making the HTTP request.", e);
         }
 
-        // Return the list of {@link Earthquake}s
+        // Return the response
         return response;
     }
 
@@ -186,7 +186,7 @@ public final class QueryUtils {
             Log.e("Problem", "Problem making the HTTP request.", e);
         }
 
-        // Return the list of {@link Earthquake}s
+        // Return the response
         return response;
     }
 }
